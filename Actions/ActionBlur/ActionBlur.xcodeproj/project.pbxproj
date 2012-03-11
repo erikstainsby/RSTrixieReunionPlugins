@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		030D492F15045B9B005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D492E15045B9B005C2891 /* RSTrixiePlugin.framework */; };
 		03530A4814F0983B002E9A5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03530A4714F0983B002E9A5E /* Cocoa.framework */; };
 		03530A5214F0983B002E9A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03530A5014F0983B002E9A5E /* InfoPlist.strings */; };
 		03530C0814F09E25002E9A5E /* ActionBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 03530C0714F09E25002E9A5E /* ActionBlur.m */; };
@@ -35,7 +34,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030D492F15045B9B005C2891 /* RSTrixiePlugin.framework in Frameworks */,
 				03530A4814F0983B002E9A5E /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

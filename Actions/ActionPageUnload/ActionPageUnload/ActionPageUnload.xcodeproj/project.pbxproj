@@ -1,0 +1,295 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		034304A1150C6B21007DC04A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034304A0150C6B21007DC04A /* Cocoa.framework */; };
+		034304AB150C6B21007DC04A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034304A9150C6B21007DC04A /* InfoPlist.strings */; };
+		034304B5150C6B48007DC04A /* ActionPageUnload.m in Sources */ = {isa = PBXBuildFile; fileRef = 034304B3150C6B48007DC04A /* ActionPageUnload.m */; };
+		034304B6150C6B48007DC04A /* ActionPageUnload.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034304B4150C6B48007DC04A /* ActionPageUnload.xib */; };
+		034304B9150C6BB7007DC04A /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034304B8150C6BB7007DC04A /* RSTrixiePlugin.framework */; };
+		034304BB150C6C0B007DC04A /* ActionPageUnload.h in Headers */ = {isa = PBXBuildFile; fileRef = 034304B2150C6B48007DC04A /* ActionPageUnload.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0343049D150C6B21007DC04A /* ActionPageUnload.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionPageUnload.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		034304A0150C6B21007DC04A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		034304A3150C6B21007DC04A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		034304A4150C6B21007DC04A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		034304A5150C6B21007DC04A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		034304A8150C6B21007DC04A /* ActionPageUnload-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionPageUnload-Info.plist"; sourceTree = "<group>"; };
+		034304AA150C6B21007DC04A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034304AC150C6B21007DC04A /* ActionPageUnload-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionPageUnload-Prefix.pch"; sourceTree = "<group>"; };
+		034304B2150C6B48007DC04A /* ActionPageUnload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionPageUnload.h; sourceTree = "<group>"; };
+		034304B3150C6B48007DC04A /* ActionPageUnload.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionPageUnload.m; sourceTree = "<group>"; };
+		034304B4150C6B48007DC04A /* ActionPageUnload.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionPageUnload.xib; sourceTree = "<group>"; };
+		034304B8150C6BB7007DC04A /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0343049A150C6B21007DC04A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034304B9150C6BB7007DC04A /* RSTrixiePlugin.framework in Frameworks */,
+				034304A1150C6B21007DC04A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03430492150C6B21007DC04A = {
+			isa = PBXGroup;
+			children = (
+				034304A6150C6B21007DC04A /* ActionPageUnload */,
+				0343049F150C6B21007DC04A /* Frameworks */,
+				0343049E150C6B21007DC04A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0343049E150C6B21007DC04A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0343049D150C6B21007DC04A /* ActionPageUnload.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0343049F150C6B21007DC04A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034304B8150C6BB7007DC04A /* RSTrixiePlugin.framework */,
+				034304A0150C6B21007DC04A /* Cocoa.framework */,
+				034304A2150C6B21007DC04A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034304A2150C6B21007DC04A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034304A3150C6B21007DC04A /* AppKit.framework */,
+				034304A4150C6B21007DC04A /* CoreData.framework */,
+				034304A5150C6B21007DC04A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		034304A6150C6B21007DC04A /* ActionPageUnload */ = {
+			isa = PBXGroup;
+			children = (
+				034304A7150C6B21007DC04A /* Supporting Files */,
+				034304B2150C6B48007DC04A /* ActionPageUnload.h */,
+				034304B3150C6B48007DC04A /* ActionPageUnload.m */,
+				034304B4150C6B48007DC04A /* ActionPageUnload.xib */,
+			);
+			path = ActionPageUnload;
+			sourceTree = "<group>";
+		};
+		034304A7150C6B21007DC04A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034304A8150C6B21007DC04A /* ActionPageUnload-Info.plist */,
+				034304A9150C6B21007DC04A /* InfoPlist.strings */,
+				034304AC150C6B21007DC04A /* ActionPageUnload-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		034304BA150C6C05007DC04A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034304BB150C6C0B007DC04A /* ActionPageUnload.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0343049C150C6B21007DC04A /* ActionPageUnload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034304AF150C6B21007DC04A /* Build configuration list for PBXNativeTarget "ActionPageUnload" */;
+			buildPhases = (
+				03430499150C6B21007DC04A /* Sources */,
+				0343049A150C6B21007DC04A /* Frameworks */,
+				0343049B150C6B21007DC04A /* Resources */,
+				034304BA150C6C05007DC04A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionPageUnload;
+			productName = ActionPageUnload;
+			productReference = 0343049D150C6B21007DC04A /* ActionPageUnload.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03430494150C6B21007DC04A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 03430497150C6B21007DC04A /* Build configuration list for PBXProject "ActionPageUnload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03430492150C6B21007DC04A;
+			productRefGroup = 0343049E150C6B21007DC04A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0343049C150C6B21007DC04A /* ActionPageUnload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0343049B150C6B21007DC04A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034304AB150C6B21007DC04A /* InfoPlist.strings in Resources */,
+				034304B6150C6B48007DC04A /* ActionPageUnload.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03430499150C6B21007DC04A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034304B5150C6B48007DC04A /* ActionPageUnload.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		034304A9150C6B21007DC04A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034304AA150C6B21007DC04A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034304AD150C6B21007DC04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		034304AE150C6B21007DC04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		034304B0150C6B21007DC04A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionPageUnload/ActionPageUnload-Prefix.pch";
+				INFOPLIST_FILE = "ActionPageUnload/ActionPageUnload-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		034304B1150C6B21007DC04A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionPageUnload/ActionPageUnload-Prefix.pch";
+				INFOPLIST_FILE = "ActionPageUnload/ActionPageUnload-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03430497150C6B21007DC04A /* Build configuration list for PBXProject "ActionPageUnload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034304AD150C6B21007DC04A /* Debug */,
+				034304AE150C6B21007DC04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034304AF150C6B21007DC04A /* Build configuration list for PBXNativeTarget "ActionPageUnload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034304B0150C6B21007DC04A /* Debug */,
+				034304B1150C6B21007DC04A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03430494150C6B21007DC04A /* Project object */;
+}
