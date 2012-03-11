@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D495315045C6E005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D495215045C6E005C2891 /* RSTrixiePlugin.framework */; };
+		0353097B14F05DB8002E9A5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0353097A14F05DB8002E9A5E /* Cocoa.framework */; };
+		0353098514F05DB8002E9A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0353098314F05DB8002E9A5E /* InfoPlist.strings */; };
+		03530A0D14F0634C002E9A5E /* ActionFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = 03530A0C14F0634C002E9A5E /* ActionFocus.m */; };
+		03530A1214F06391002E9A5E /* ActionFocus.h in Headers */ = {isa = PBXBuildFile; fileRef = 03530A0B14F0634C002E9A5E /* ActionFocus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03530A1A14F0651A002E9A5E /* ActionFocus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03530A1914F0651A002E9A5E /* ActionFocus.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D495215045C6E005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+		0353097714F05DB8002E9A5E /* ActionFocus.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionFocus.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0353097A14F05DB8002E9A5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0353097D14F05DB8002E9A5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0353097E14F05DB8002E9A5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0353097F14F05DB8002E9A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0353098214F05DB8002E9A5E /* ActionFocus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionFocus-Info.plist"; sourceTree = "<group>"; };
+		0353098414F05DB8002E9A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0353098614F05DB8002E9A5E /* ActionFocus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionFocus-Prefix.pch"; sourceTree = "<group>"; };
+		03530A0B14F0634C002E9A5E /* ActionFocus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionFocus.h; sourceTree = "<group>"; };
+		03530A0C14F0634C002E9A5E /* ActionFocus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionFocus.m; sourceTree = "<group>"; };
+		03530A1914F0651A002E9A5E /* ActionFocus.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionFocus.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0353097414F05DB8002E9A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D495315045C6E005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				0353097B14F05DB8002E9A5E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0353096C14F05DB8002E9A5E = {
+			isa = PBXGroup;
+			children = (
+				0353098014F05DB8002E9A5E /* ActionFocus */,
+				0353098114F05DB8002E9A5E /* Supporting Files */,
+				0353097914F05DB8002E9A5E /* Frameworks */,
+				0353097814F05DB8002E9A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0353097814F05DB8002E9A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0353097714F05DB8002E9A5E /* ActionFocus.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0353097914F05DB8002E9A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030D495215045C6E005C2891 /* RSTrixiePlugin.framework */,
+				0353097A14F05DB8002E9A5E /* Cocoa.framework */,
+				0353097C14F05DB8002E9A5E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0353097C14F05DB8002E9A5E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0353097D14F05DB8002E9A5E /* AppKit.framework */,
+				0353097E14F05DB8002E9A5E /* CoreData.framework */,
+				0353097F14F05DB8002E9A5E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0353098014F05DB8002E9A5E /* ActionFocus */ = {
+			isa = PBXGroup;
+			children = (
+				03530A0B14F0634C002E9A5E /* ActionFocus.h */,
+				03530A0C14F0634C002E9A5E /* ActionFocus.m */,
+				03530A1914F0651A002E9A5E /* ActionFocus.xib */,
+			);
+			path = ActionFocus;
+			sourceTree = "<group>";
+		};
+		0353098114F05DB8002E9A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0353098214F05DB8002E9A5E /* ActionFocus-Info.plist */,
+				0353098314F05DB8002E9A5E /* InfoPlist.strings */,
+				0353098614F05DB8002E9A5E /* ActionFocus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = ActionFocus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03530A1114F06382002E9A5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530A1214F06391002E9A5E /* ActionFocus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0353097614F05DB8002E9A5E /* ActionFocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0353098914F05DB8002E9A5E /* Build configuration list for PBXNativeTarget "ActionFocus" */;
+			buildPhases = (
+				0353097314F05DB8002E9A5E /* Sources */,
+				0353097414F05DB8002E9A5E /* Frameworks */,
+				0353097514F05DB8002E9A5E /* Resources */,
+				03530A1114F06382002E9A5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionFocus;
+			productName = ActionFocus;
+			productReference = 0353097714F05DB8002E9A5E /* ActionFocus.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0353096E14F05DB8002E9A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 0353097114F05DB8002E9A5E /* Build configuration list for PBXProject "ActionFocus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0353096C14F05DB8002E9A5E;
+			productRefGroup = 0353097814F05DB8002E9A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0353097614F05DB8002E9A5E /* ActionFocus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0353097514F05DB8002E9A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0353098514F05DB8002E9A5E /* InfoPlist.strings in Resources */,
+				03530A1A14F0651A002E9A5E /* ActionFocus.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0353097314F05DB8002E9A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530A0D14F0634C002E9A5E /* ActionFocus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0353098314F05DB8002E9A5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0353098414F05DB8002E9A5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0353098714F05DB8002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0353098814F05DB8002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0353098A14F05DB8002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionFocus/ActionFocus-Prefix.pch";
+				INFOPLIST_FILE = "ActionFocus/ActionFocus-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0353098B14F05DB8002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionFocus/ActionFocus-Prefix.pch";
+				INFOPLIST_FILE = "ActionFocus/ActionFocus-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0353097114F05DB8002E9A5E /* Build configuration list for PBXProject "ActionFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0353098714F05DB8002E9A5E /* Debug */,
+				0353098814F05DB8002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0353098914F05DB8002E9A5E /* Build configuration list for PBXNativeTarget "ActionFocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0353098A14F05DB8002E9A5E /* Debug */,
+				0353098B14F05DB8002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0353096E14F05DB8002E9A5E /* Project object */;
+}

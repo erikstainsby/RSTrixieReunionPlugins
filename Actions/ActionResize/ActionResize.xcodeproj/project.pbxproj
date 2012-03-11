@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D493815045BCD005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D493715045BCD005C2891 /* RSTrixiePlugin.framework */; };
+		03530AC814F098F1002E9A5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03530AC714F098F1002E9A5E /* Cocoa.framework */; };
+		03530AD214F098F1002E9A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03530AD014F098F1002E9A5E /* InfoPlist.strings */; };
+		03530BEC14F09CBB002E9A5E /* ActionResize.m in Sources */ = {isa = PBXBuildFile; fileRef = 03530BEB14F09CBB002E9A5E /* ActionResize.m */; };
+		03530BF014F09CED002E9A5E /* ActionResize.h in Headers */ = {isa = PBXBuildFile; fileRef = 03530BEA14F09CBB002E9A5E /* ActionResize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03530C2E14F0A25C002E9A5E /* ActionResize.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03530C2D14F0A25C002E9A5E /* ActionResize.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D493715045BCD005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+		03530AC414F098F1002E9A5E /* ActionResize.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionResize.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03530AC714F098F1002E9A5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03530ACA14F098F1002E9A5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03530ACB14F098F1002E9A5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03530ACC14F098F1002E9A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03530ACF14F098F1002E9A5E /* ActionResize-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionResize-Info.plist"; sourceTree = "<group>"; };
+		03530AD114F098F1002E9A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03530AD314F098F1002E9A5E /* ActionResize-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionResize-Prefix.pch"; sourceTree = "<group>"; };
+		03530BEA14F09CBB002E9A5E /* ActionResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionResize.h; sourceTree = "<group>"; };
+		03530BEB14F09CBB002E9A5E /* ActionResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionResize.m; sourceTree = "<group>"; };
+		03530C2D14F0A25C002E9A5E /* ActionResize.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionResize.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03530AC114F098F1002E9A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D493815045BCD005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				03530AC814F098F1002E9A5E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03530AB914F098F1002E9A5E = {
+			isa = PBXGroup;
+			children = (
+				03530ACD14F098F1002E9A5E /* ActionResize */,
+				03530AC614F098F1002E9A5E /* Frameworks */,
+				03530AC514F098F1002E9A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03530AC514F098F1002E9A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03530AC414F098F1002E9A5E /* ActionResize.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03530AC614F098F1002E9A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030D493715045BCD005C2891 /* RSTrixiePlugin.framework */,
+				03530AC714F098F1002E9A5E /* Cocoa.framework */,
+				03530AC914F098F1002E9A5E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03530AC914F098F1002E9A5E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03530ACA14F098F1002E9A5E /* AppKit.framework */,
+				03530ACB14F098F1002E9A5E /* CoreData.framework */,
+				03530ACC14F098F1002E9A5E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03530ACD14F098F1002E9A5E /* ActionResize */ = {
+			isa = PBXGroup;
+			children = (
+				03530ACE14F098F1002E9A5E /* Supporting Files */,
+				03530BEA14F09CBB002E9A5E /* ActionResize.h */,
+				03530BEB14F09CBB002E9A5E /* ActionResize.m */,
+				03530C2D14F0A25C002E9A5E /* ActionResize.xib */,
+			);
+			path = ActionResize;
+			sourceTree = "<group>";
+		};
+		03530ACE14F098F1002E9A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03530ACF14F098F1002E9A5E /* ActionResize-Info.plist */,
+				03530AD014F098F1002E9A5E /* InfoPlist.strings */,
+				03530AD314F098F1002E9A5E /* ActionResize-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03530BEF14F09CE8002E9A5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530BF014F09CED002E9A5E /* ActionResize.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03530AC314F098F1002E9A5E /* ActionResize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03530AD614F098F1002E9A5E /* Build configuration list for PBXNativeTarget "ActionResize" */;
+			buildPhases = (
+				03530AC014F098F1002E9A5E /* Sources */,
+				03530AC114F098F1002E9A5E /* Frameworks */,
+				03530AC214F098F1002E9A5E /* Resources */,
+				03530BEF14F09CE8002E9A5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionResize;
+			productName = ActionResize;
+			productReference = 03530AC414F098F1002E9A5E /* ActionResize.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03530ABB14F098F1002E9A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 03530ABE14F098F1002E9A5E /* Build configuration list for PBXProject "ActionResize" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03530AB914F098F1002E9A5E;
+			productRefGroup = 03530AC514F098F1002E9A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03530AC314F098F1002E9A5E /* ActionResize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03530AC214F098F1002E9A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530AD214F098F1002E9A5E /* InfoPlist.strings in Resources */,
+				03530C2E14F0A25C002E9A5E /* ActionResize.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03530AC014F098F1002E9A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530BEC14F09CBB002E9A5E /* ActionResize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03530AD014F098F1002E9A5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03530AD114F098F1002E9A5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03530AD414F098F1002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03530AD514F098F1002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03530AD714F098F1002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionResize/ActionResize-Prefix.pch";
+				INFOPLIST_FILE = "ActionResize/ActionResize-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		03530AD814F098F1002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionResize/ActionResize-Prefix.pch";
+				INFOPLIST_FILE = "ActionResize/ActionResize-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03530ABE14F098F1002E9A5E /* Build configuration list for PBXProject "ActionResize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03530AD414F098F1002E9A5E /* Debug */,
+				03530AD514F098F1002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03530AD614F098F1002E9A5E /* Build configuration list for PBXNativeTarget "ActionResize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03530AD714F098F1002E9A5E /* Debug */,
+				03530AD814F098F1002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03530ABB14F098F1002E9A5E /* Project object */;
+}

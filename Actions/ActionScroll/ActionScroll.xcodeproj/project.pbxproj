@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D493A15045BD8005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D493915045BD8005C2891 /* RSTrixiePlugin.framework */; };
+		03530AE814F09906002E9A5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03530AE714F09906002E9A5E /* Cocoa.framework */; };
+		03530AF214F09906002E9A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03530AF014F09906002E9A5E /* InfoPlist.strings */; };
+		03530BE514F09C73002E9A5E /* ActionScroll.m in Sources */ = {isa = PBXBuildFile; fileRef = 03530BE414F09C73002E9A5E /* ActionScroll.m */; };
+		03530BE914F09CA0002E9A5E /* ActionScroll.h in Headers */ = {isa = PBXBuildFile; fileRef = 03530BE314F09C73002E9A5E /* ActionScroll.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03530C3014F0A285002E9A5E /* ActionScroll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03530C2F14F0A285002E9A5E /* ActionScroll.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D493915045BD8005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+		03530AE414F09906002E9A5E /* ActionScroll.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionScroll.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03530AE714F09906002E9A5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03530AEA14F09906002E9A5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03530AEB14F09906002E9A5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03530AEC14F09906002E9A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03530AEF14F09906002E9A5E /* ActionScroll-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionScroll-Info.plist"; sourceTree = "<group>"; };
+		03530AF114F09906002E9A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03530AF314F09906002E9A5E /* ActionScroll-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionScroll-Prefix.pch"; sourceTree = "<group>"; };
+		03530BE314F09C73002E9A5E /* ActionScroll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionScroll.h; sourceTree = "<group>"; };
+		03530BE414F09C73002E9A5E /* ActionScroll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionScroll.m; sourceTree = "<group>"; };
+		03530C2F14F0A285002E9A5E /* ActionScroll.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionScroll.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03530AE114F09906002E9A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D493A15045BD8005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				03530AE814F09906002E9A5E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03530AD914F09906002E9A5E = {
+			isa = PBXGroup;
+			children = (
+				03530AED14F09906002E9A5E /* ActionScroll */,
+				03530AE614F09906002E9A5E /* Frameworks */,
+				03530AE514F09906002E9A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03530AE514F09906002E9A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03530AE414F09906002E9A5E /* ActionScroll.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03530AE614F09906002E9A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030D493915045BD8005C2891 /* RSTrixiePlugin.framework */,
+				03530AE714F09906002E9A5E /* Cocoa.framework */,
+				03530AE914F09906002E9A5E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03530AE914F09906002E9A5E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03530AEA14F09906002E9A5E /* AppKit.framework */,
+				03530AEB14F09906002E9A5E /* CoreData.framework */,
+				03530AEC14F09906002E9A5E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03530AED14F09906002E9A5E /* ActionScroll */ = {
+			isa = PBXGroup;
+			children = (
+				03530BE314F09C73002E9A5E /* ActionScroll.h */,
+				03530BE414F09C73002E9A5E /* ActionScroll.m */,
+				03530C2F14F0A285002E9A5E /* ActionScroll.xib */,
+				03530AEE14F09906002E9A5E /* Supporting Files */,
+			);
+			path = ActionScroll;
+			sourceTree = "<group>";
+		};
+		03530AEE14F09906002E9A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03530AEF14F09906002E9A5E /* ActionScroll-Info.plist */,
+				03530AF014F09906002E9A5E /* InfoPlist.strings */,
+				03530AF314F09906002E9A5E /* ActionScroll-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03530BE814F09C9B002E9A5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530BE914F09CA0002E9A5E /* ActionScroll.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03530AE314F09906002E9A5E /* ActionScroll */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03530AF614F09906002E9A5E /* Build configuration list for PBXNativeTarget "ActionScroll" */;
+			buildPhases = (
+				03530AE014F09906002E9A5E /* Sources */,
+				03530AE114F09906002E9A5E /* Frameworks */,
+				03530AE214F09906002E9A5E /* Resources */,
+				03530BE814F09C9B002E9A5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionScroll;
+			productName = ActionScroll;
+			productReference = 03530AE414F09906002E9A5E /* ActionScroll.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03530ADB14F09906002E9A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 03530ADE14F09906002E9A5E /* Build configuration list for PBXProject "ActionScroll" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03530AD914F09906002E9A5E;
+			productRefGroup = 03530AE514F09906002E9A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03530AE314F09906002E9A5E /* ActionScroll */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03530AE214F09906002E9A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530AF214F09906002E9A5E /* InfoPlist.strings in Resources */,
+				03530C3014F0A285002E9A5E /* ActionScroll.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03530AE014F09906002E9A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530BE514F09C73002E9A5E /* ActionScroll.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03530AF014F09906002E9A5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03530AF114F09906002E9A5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03530AF414F09906002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03530AF514F09906002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03530AF714F09906002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionScroll/ActionScroll-Prefix.pch";
+				INFOPLIST_FILE = "ActionScroll/ActionScroll-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		03530AF814F09906002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionScroll/ActionScroll-Prefix.pch";
+				INFOPLIST_FILE = "ActionScroll/ActionScroll-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03530ADE14F09906002E9A5E /* Build configuration list for PBXProject "ActionScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03530AF414F09906002E9A5E /* Debug */,
+				03530AF514F09906002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03530AF614F09906002E9A5E /* Build configuration list for PBXNativeTarget "ActionScroll" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03530AF714F09906002E9A5E /* Debug */,
+				03530AF814F09906002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03530ADB14F09906002E9A5E /* Project object */;
+}

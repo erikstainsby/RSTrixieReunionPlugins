@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D492F15045B9B005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D492E15045B9B005C2891 /* RSTrixiePlugin.framework */; };
+		03530A4814F0983B002E9A5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03530A4714F0983B002E9A5E /* Cocoa.framework */; };
+		03530A5214F0983B002E9A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03530A5014F0983B002E9A5E /* InfoPlist.strings */; };
+		03530C0814F09E25002E9A5E /* ActionBlur.m in Sources */ = {isa = PBXBuildFile; fileRef = 03530C0714F09E25002E9A5E /* ActionBlur.m */; };
+		03530C0C14F09E5A002E9A5E /* ActionBlur.h in Headers */ = {isa = PBXBuildFile; fileRef = 03530C0614F09E25002E9A5E /* ActionBlur.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03530C2614F0A1BD002E9A5E /* ActionBlur.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03530C2514F0A1BD002E9A5E /* ActionBlur.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D492E15045B9B005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+		03530A4414F0983B002E9A5E /* ActionBlur.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionBlur.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03530A4714F0983B002E9A5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03530A4A14F0983B002E9A5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03530A4B14F0983B002E9A5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03530A4C14F0983B002E9A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		03530A4F14F0983B002E9A5E /* ActionBlur-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionBlur-Info.plist"; sourceTree = "<group>"; };
+		03530A5114F0983B002E9A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		03530A5314F0983B002E9A5E /* ActionBlur-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionBlur-Prefix.pch"; sourceTree = "<group>"; };
+		03530C0614F09E25002E9A5E /* ActionBlur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionBlur.h; sourceTree = "<group>"; };
+		03530C0714F09E25002E9A5E /* ActionBlur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionBlur.m; sourceTree = "<group>"; };
+		03530C2514F0A1BD002E9A5E /* ActionBlur.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionBlur.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03530A4114F0983B002E9A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D492F15045B9B005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				03530A4814F0983B002E9A5E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03530A3914F0983B002E9A5E = {
+			isa = PBXGroup;
+			children = (
+				03530A4D14F0983B002E9A5E /* ActionBlur */,
+				03530A4614F0983B002E9A5E /* Frameworks */,
+				03530A4514F0983B002E9A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03530A4514F0983B002E9A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03530A4414F0983B002E9A5E /* ActionBlur.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03530A4614F0983B002E9A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030D492E15045B9B005C2891 /* RSTrixiePlugin.framework */,
+				03530A4714F0983B002E9A5E /* Cocoa.framework */,
+				03530A4914F0983B002E9A5E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03530A4914F0983B002E9A5E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03530A4A14F0983B002E9A5E /* AppKit.framework */,
+				03530A4B14F0983B002E9A5E /* CoreData.framework */,
+				03530A4C14F0983B002E9A5E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03530A4D14F0983B002E9A5E /* ActionBlur */ = {
+			isa = PBXGroup;
+			children = (
+				03530C0614F09E25002E9A5E /* ActionBlur.h */,
+				03530C0714F09E25002E9A5E /* ActionBlur.m */,
+				03530C2514F0A1BD002E9A5E /* ActionBlur.xib */,
+				03530A4E14F0983B002E9A5E /* Supporting Files */,
+			);
+			path = ActionBlur;
+			sourceTree = "<group>";
+		};
+		03530A4E14F0983B002E9A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				03530A4F14F0983B002E9A5E /* ActionBlur-Info.plist */,
+				03530A5014F0983B002E9A5E /* InfoPlist.strings */,
+				03530A5314F0983B002E9A5E /* ActionBlur-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03530C0B14F09E54002E9A5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530C0C14F09E5A002E9A5E /* ActionBlur.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03530A4314F0983B002E9A5E /* ActionBlur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03530A5614F0983B002E9A5E /* Build configuration list for PBXNativeTarget "ActionBlur" */;
+			buildPhases = (
+				03530A4014F0983B002E9A5E /* Sources */,
+				03530A4114F0983B002E9A5E /* Frameworks */,
+				03530A4214F0983B002E9A5E /* Resources */,
+				03530C0B14F09E54002E9A5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionBlur;
+			productName = ActionBlur;
+			productReference = 03530A4414F0983B002E9A5E /* ActionBlur.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03530A3B14F0983B002E9A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 03530A3E14F0983B002E9A5E /* Build configuration list for PBXProject "ActionBlur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03530A3914F0983B002E9A5E;
+			productRefGroup = 03530A4514F0983B002E9A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03530A4314F0983B002E9A5E /* ActionBlur */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03530A4214F0983B002E9A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530A5214F0983B002E9A5E /* InfoPlist.strings in Resources */,
+				03530C2614F0A1BD002E9A5E /* ActionBlur.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03530A4014F0983B002E9A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530C0814F09E25002E9A5E /* ActionBlur.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03530A5014F0983B002E9A5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03530A5114F0983B002E9A5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03530A5414F0983B002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03530A5514F0983B002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03530A5714F0983B002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionBlur/ActionBlur-Prefix.pch";
+				INFOPLIST_FILE = "ActionBlur/ActionBlur-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		03530A5814F0983B002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionBlur/ActionBlur-Prefix.pch";
+				INFOPLIST_FILE = "ActionBlur/ActionBlur-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03530A3E14F0983B002E9A5E /* Build configuration list for PBXProject "ActionBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03530A5414F0983B002E9A5E /* Debug */,
+				03530A5514F0983B002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03530A5614F0983B002E9A5E /* Build configuration list for PBXNativeTarget "ActionBlur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03530A5714F0983B002E9A5E /* Debug */,
+				03530A5814F0983B002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03530A3B14F0983B002E9A5E /* Project object */;
+}

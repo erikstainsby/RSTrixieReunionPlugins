@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D493215045BAB005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D493115045BAB005C2891 /* RSTrixiePlugin.framework */; };
+		035309C214F05E2D002E9A5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 035309C114F05E2D002E9A5E /* Cocoa.framework */; };
+		035309CC14F05E2D002E9A5E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 035309CA14F05E2D002E9A5E /* InfoPlist.strings */; };
+		03530A0214F0628E002E9A5E /* ActionMouseOver.h in Headers */ = {isa = PBXBuildFile; fileRef = 03530A0014F0628E002E9A5E /* ActionMouseOver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03530A0314F0628E002E9A5E /* ActionMouseOver.m in Sources */ = {isa = PBXBuildFile; fileRef = 03530A0114F0628E002E9A5E /* ActionMouseOver.m */; };
+		03530A1614F064E0002E9A5E /* ActionMouseOver.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03530A1514F064E0002E9A5E /* ActionMouseOver.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D493115045BAB005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+		035309BE14F05E2D002E9A5E /* ActionMouseOver.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ActionMouseOver.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		035309C114F05E2D002E9A5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		035309C414F05E2D002E9A5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		035309C514F05E2D002E9A5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		035309C614F05E2D002E9A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		035309C914F05E2D002E9A5E /* ActionMouseOver-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ActionMouseOver-Info.plist"; sourceTree = "<group>"; };
+		035309CB14F05E2D002E9A5E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		035309CD14F05E2D002E9A5E /* ActionMouseOver-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ActionMouseOver-Prefix.pch"; sourceTree = "<group>"; };
+		03530A0014F0628E002E9A5E /* ActionMouseOver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionMouseOver.h; sourceTree = "<group>"; };
+		03530A0114F0628E002E9A5E /* ActionMouseOver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionMouseOver.m; sourceTree = "<group>"; };
+		03530A1514F064E0002E9A5E /* ActionMouseOver.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionMouseOver.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		035309BB14F05E2D002E9A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D493215045BAB005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				035309C214F05E2D002E9A5E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		035309B314F05E2D002E9A5E = {
+			isa = PBXGroup;
+			children = (
+				035309C714F05E2D002E9A5E /* ActionMouseOver */,
+				035309C014F05E2D002E9A5E /* Frameworks */,
+				035309BF14F05E2D002E9A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		035309BF14F05E2D002E9A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				035309BE14F05E2D002E9A5E /* ActionMouseOver.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		035309C014F05E2D002E9A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030D493115045BAB005C2891 /* RSTrixiePlugin.framework */,
+				035309C114F05E2D002E9A5E /* Cocoa.framework */,
+				035309C314F05E2D002E9A5E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		035309C314F05E2D002E9A5E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				035309C414F05E2D002E9A5E /* AppKit.framework */,
+				035309C514F05E2D002E9A5E /* CoreData.framework */,
+				035309C614F05E2D002E9A5E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		035309C714F05E2D002E9A5E /* ActionMouseOver */ = {
+			isa = PBXGroup;
+			children = (
+				035309C814F05E2D002E9A5E /* Supporting Files */,
+				03530A0014F0628E002E9A5E /* ActionMouseOver.h */,
+				03530A0114F0628E002E9A5E /* ActionMouseOver.m */,
+				03530A1514F064E0002E9A5E /* ActionMouseOver.xib */,
+			);
+			path = ActionMouseOver;
+			sourceTree = "<group>";
+		};
+		035309C814F05E2D002E9A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				035309C914F05E2D002E9A5E /* ActionMouseOver-Info.plist */,
+				035309CA14F05E2D002E9A5E /* InfoPlist.strings */,
+				035309CD14F05E2D002E9A5E /* ActionMouseOver-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		035309FD14F061BE002E9A5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530A0214F0628E002E9A5E /* ActionMouseOver.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		035309BD14F05E2D002E9A5E /* ActionMouseOver */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 035309D014F05E2D002E9A5E /* Build configuration list for PBXNativeTarget "ActionMouseOver" */;
+			buildPhases = (
+				035309BA14F05E2D002E9A5E /* Sources */,
+				035309BB14F05E2D002E9A5E /* Frameworks */,
+				035309BC14F05E2D002E9A5E /* Resources */,
+				035309FD14F061BE002E9A5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ActionMouseOver;
+			productName = ActionMouseOver;
+			productReference = 035309BE14F05E2D002E9A5E /* ActionMouseOver.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		035309B514F05E2D002E9A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 035309B814F05E2D002E9A5E /* Build configuration list for PBXProject "ActionMouseOver" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 035309B314F05E2D002E9A5E;
+			productRefGroup = 035309BF14F05E2D002E9A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				035309BD14F05E2D002E9A5E /* ActionMouseOver */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		035309BC14F05E2D002E9A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				035309CC14F05E2D002E9A5E /* InfoPlist.strings in Resources */,
+				03530A1614F064E0002E9A5E /* ActionMouseOver.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		035309BA14F05E2D002E9A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03530A0314F0628E002E9A5E /* ActionMouseOver.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		035309CA14F05E2D002E9A5E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				035309CB14F05E2D002E9A5E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		035309CE14F05E2D002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		035309CF14F05E2D002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		035309D114F05E2D002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionMouseOver/ActionMouseOver-Prefix.pch";
+				INFOPLIST_FILE = "ActionMouseOver/ActionMouseOver-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		035309D214F05E2D002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ActionMouseOver/ActionMouseOver-Prefix.pch";
+				INFOPLIST_FILE = "ActionMouseOver/ActionMouseOver-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		035309B814F05E2D002E9A5E /* Build configuration list for PBXProject "ActionMouseOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035309CE14F05E2D002E9A5E /* Debug */,
+				035309CF14F05E2D002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		035309D014F05E2D002E9A5E /* Build configuration list for PBXNativeTarget "ActionMouseOver" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				035309D114F05E2D002E9A5E /* Debug */,
+				035309D214F05E2D002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 035309B514F05E2D002E9A5E /* Project object */;
+}

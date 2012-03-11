@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D499715045E41005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D499615045E41005C2891 /* RSTrixiePlugin.framework */; };
+		034CDE9914FFE33F00193D04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034CDE9814FFE33F00193D04 /* Cocoa.framework */; };
+		034CDEA314FFE33F00193D04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034CDEA114FFE33F00193D04 /* InfoPlist.strings */; };
+		036443D5150ADB0B003623AA /* ReactionSlideToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 036443D3150ADB0B003623AA /* ReactionSlideToggle.m */; };
+		036443D6150ADB0B003623AA /* ReactionSlideToggle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 036443D4150ADB0B003623AA /* ReactionSlideToggle.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D499615045E41005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+		034CDE9514FFE33F00193D04 /* ReactionSlideToggle.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactionSlideToggle.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		034CDE9814FFE33F00193D04 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		034CDE9B14FFE33F00193D04 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		034CDE9C14FFE33F00193D04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		034CDE9D14FFE33F00193D04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		034CDEA014FFE33F00193D04 /* ReactionSlideToggle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReactionSlideToggle-Info.plist"; sourceTree = "<group>"; };
+		034CDEA214FFE33F00193D04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034CDEA414FFE33F00193D04 /* ReactionSlideToggle-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactionSlideToggle-Prefix.pch"; sourceTree = "<group>"; };
+		036443D2150ADB0B003623AA /* ReactionSlideToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionSlideToggle.h; sourceTree = "<group>"; };
+		036443D3150ADB0B003623AA /* ReactionSlideToggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactionSlideToggle.m; sourceTree = "<group>"; };
+		036443D4150ADB0B003623AA /* ReactionSlideToggle.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactionSlideToggle.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034CDE9214FFE33F00193D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D499715045E41005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				034CDE9914FFE33F00193D04 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034CDE8A14FFE33F00193D04 = {
+			isa = PBXGroup;
+			children = (
+				034CDE9E14FFE33F00193D04 /* ReactionSlideToggle */,
+				034CDE9714FFE33F00193D04 /* Frameworks */,
+				034CDE9614FFE33F00193D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034CDE9614FFE33F00193D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034CDE9514FFE33F00193D04 /* ReactionSlideToggle.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034CDE9714FFE33F00193D04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030D499615045E41005C2891 /* RSTrixiePlugin.framework */,
+				034CDE9814FFE33F00193D04 /* Cocoa.framework */,
+				034CDE9A14FFE33F00193D04 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034CDE9A14FFE33F00193D04 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034CDE9B14FFE33F00193D04 /* AppKit.framework */,
+				034CDE9C14FFE33F00193D04 /* CoreData.framework */,
+				034CDE9D14FFE33F00193D04 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		034CDE9E14FFE33F00193D04 /* ReactionSlideToggle */ = {
+			isa = PBXGroup;
+			children = (
+				034CDE9F14FFE33F00193D04 /* Supporting Files */,
+				036443D2150ADB0B003623AA /* ReactionSlideToggle.h */,
+				036443D3150ADB0B003623AA /* ReactionSlideToggle.m */,
+				036443D4150ADB0B003623AA /* ReactionSlideToggle.xib */,
+			);
+			path = ReactionSlideToggle;
+			sourceTree = "<group>";
+		};
+		034CDE9F14FFE33F00193D04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034CDEA014FFE33F00193D04 /* ReactionSlideToggle-Info.plist */,
+				034CDEA114FFE33F00193D04 /* InfoPlist.strings */,
+				034CDEA414FFE33F00193D04 /* ReactionSlideToggle-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034CDE9414FFE33F00193D04 /* ReactionSlideToggle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034CDEA714FFE33F00193D04 /* Build configuration list for PBXNativeTarget "ReactionSlideToggle" */;
+			buildPhases = (
+				034CDE9114FFE33F00193D04 /* Sources */,
+				034CDE9214FFE33F00193D04 /* Frameworks */,
+				034CDE9314FFE33F00193D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactionSlideToggle;
+			productName = ReactionSlideToggle;
+			productReference = 034CDE9514FFE33F00193D04 /* ReactionSlideToggle.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034CDE8C14FFE33F00193D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 034CDE8F14FFE33F00193D04 /* Build configuration list for PBXProject "ReactionSlideToggle" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 034CDE8A14FFE33F00193D04;
+			productRefGroup = 034CDE9614FFE33F00193D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034CDE9414FFE33F00193D04 /* ReactionSlideToggle */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034CDE9314FFE33F00193D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034CDEA314FFE33F00193D04 /* InfoPlist.strings in Resources */,
+				036443D6150ADB0B003623AA /* ReactionSlideToggle.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034CDE9114FFE33F00193D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				036443D5150ADB0B003623AA /* ReactionSlideToggle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		034CDEA114FFE33F00193D04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034CDEA214FFE33F00193D04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034CDEA514FFE33F00193D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		034CDEA614FFE33F00193D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		034CDEA814FFE33F00193D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionSlideToggle/ReactionSlideToggle-Prefix.pch";
+				INFOPLIST_FILE = "ReactionSlideToggle/ReactionSlideToggle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		034CDEA914FFE33F00193D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionSlideToggle/ReactionSlideToggle-Prefix.pch";
+				INFOPLIST_FILE = "ReactionSlideToggle/ReactionSlideToggle-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034CDE8F14FFE33F00193D04 /* Build configuration list for PBXProject "ReactionSlideToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034CDEA514FFE33F00193D04 /* Debug */,
+				034CDEA614FFE33F00193D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034CDEA714FFE33F00193D04 /* Build configuration list for PBXNativeTarget "ReactionSlideToggle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034CDEA814FFE33F00193D04 /* Debug */,
+				034CDEA914FFE33F00193D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034CDE8C14FFE33F00193D04 /* Project object */;
+}

@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D492915045B68005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D492815045B68005C2891 /* RSTrixiePlugin.framework */; };
+		0386562A14F18C2E0054E026 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0386562914F18C2E0054E026 /* Cocoa.framework */; };
+		0386563414F18C2E0054E026 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0386563214F18C2E0054E026 /* InfoPlist.strings */; };
+		0386564114F18C5E0054E026 /* ConditionStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 0386563E14F18C5E0054E026 /* ConditionStatus.h */; };
+		0386564214F18C5E0054E026 /* ConditionStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 0386563F14F18C5E0054E026 /* ConditionStatus.m */; };
+		0386564314F18C5E0054E026 /* ConditionStatus.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0386564014F18C5E0054E026 /* ConditionStatus.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D492815045B68005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+		0386562614F18C2E0054E026 /* ConditionStatus.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConditionStatus.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		0386562914F18C2E0054E026 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		0386562C14F18C2E0054E026 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0386562D14F18C2E0054E026 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0386562E14F18C2E0054E026 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0386563114F18C2E0054E026 /* ConditionStatus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ConditionStatus-Info.plist"; sourceTree = "<group>"; };
+		0386563314F18C2E0054E026 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0386563514F18C2E0054E026 /* ConditionStatus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ConditionStatus-Prefix.pch"; sourceTree = "<group>"; };
+		0386563E14F18C5E0054E026 /* ConditionStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConditionStatus.h; sourceTree = "<group>"; };
+		0386563F14F18C5E0054E026 /* ConditionStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConditionStatus.m; sourceTree = "<group>"; };
+		0386564014F18C5E0054E026 /* ConditionStatus.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ConditionStatus.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0386562314F18C2E0054E026 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D492915045B68005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				0386562A14F18C2E0054E026 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0386561B14F18C2E0054E026 = {
+			isa = PBXGroup;
+			children = (
+				0386562F14F18C2E0054E026 /* ConditionStatus */,
+				0386562814F18C2E0054E026 /* Frameworks */,
+				0386562714F18C2E0054E026 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0386562714F18C2E0054E026 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0386562614F18C2E0054E026 /* ConditionStatus.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0386562814F18C2E0054E026 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030D492815045B68005C2891 /* RSTrixiePlugin.framework */,
+				0386562914F18C2E0054E026 /* Cocoa.framework */,
+				0386562B14F18C2E0054E026 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0386562B14F18C2E0054E026 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0386562C14F18C2E0054E026 /* AppKit.framework */,
+				0386562D14F18C2E0054E026 /* CoreData.framework */,
+				0386562E14F18C2E0054E026 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0386562F14F18C2E0054E026 /* ConditionStatus */ = {
+			isa = PBXGroup;
+			children = (
+				0386563014F18C2E0054E026 /* Supporting Files */,
+				0386563E14F18C5E0054E026 /* ConditionStatus.h */,
+				0386563F14F18C5E0054E026 /* ConditionStatus.m */,
+				0386564014F18C5E0054E026 /* ConditionStatus.xib */,
+			);
+			path = ConditionStatus;
+			sourceTree = "<group>";
+		};
+		0386563014F18C2E0054E026 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0386563114F18C2E0054E026 /* ConditionStatus-Info.plist */,
+				0386563214F18C2E0054E026 /* InfoPlist.strings */,
+				0386563514F18C2E0054E026 /* ConditionStatus-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0386563D14F18C4B0054E026 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0386564114F18C5E0054E026 /* ConditionStatus.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0386562514F18C2E0054E026 /* ConditionStatus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0386563814F18C2E0054E026 /* Build configuration list for PBXNativeTarget "ConditionStatus" */;
+			buildPhases = (
+				0386562214F18C2E0054E026 /* Sources */,
+				0386562314F18C2E0054E026 /* Frameworks */,
+				0386562414F18C2E0054E026 /* Resources */,
+				0386563D14F18C4B0054E026 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConditionStatus;
+			productName = ConditionStatus;
+			productReference = 0386562614F18C2E0054E026 /* ConditionStatus.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0386561D14F18C2E0054E026 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 0386562014F18C2E0054E026 /* Build configuration list for PBXProject "ConditionStatus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0386561B14F18C2E0054E026;
+			productRefGroup = 0386562714F18C2E0054E026 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0386562514F18C2E0054E026 /* ConditionStatus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0386562414F18C2E0054E026 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0386563414F18C2E0054E026 /* InfoPlist.strings in Resources */,
+				0386564314F18C5E0054E026 /* ConditionStatus.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0386562214F18C2E0054E026 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0386564214F18C5E0054E026 /* ConditionStatus.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0386563214F18C2E0054E026 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0386563314F18C2E0054E026 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0386563614F18C2E0054E026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		0386563714F18C2E0054E026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		0386563914F18C2E0054E026 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConditionStatus/ConditionStatus-Prefix.pch";
+				INFOPLIST_FILE = "ConditionStatus/ConditionStatus-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		0386563A14F18C2E0054E026 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ConditionStatus/ConditionStatus-Prefix.pch";
+				INFOPLIST_FILE = "ConditionStatus/ConditionStatus-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0386562014F18C2E0054E026 /* Build configuration list for PBXProject "ConditionStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0386563614F18C2E0054E026 /* Debug */,
+				0386563714F18C2E0054E026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0386563814F18C2E0054E026 /* Build configuration list for PBXNativeTarget "ConditionStatus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0386563914F18C2E0054E026 /* Debug */,
+				0386563A14F18C2E0054E026 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0386561D14F18C2E0054E026 /* Project object */;
+}

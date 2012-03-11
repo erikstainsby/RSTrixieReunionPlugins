@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D498B15045E09005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D498A15045E09005C2891 /* RSTrixiePlugin.framework */; };
+		034CDDB814FFD32A00193D04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034CDDB714FFD32A00193D04 /* Cocoa.framework */; };
+		034CDDC214FFD32A00193D04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034CDDC014FFD32A00193D04 /* InfoPlist.strings */; };
+		0364439C150AD566003623AA /* ReactionHide.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364439A150AD566003623AA /* ReactionHide.m */; };
+		0364439D150AD566003623AA /* ReactionHide.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0364439B150AD566003623AA /* ReactionHide.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D498A15045E09005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+		034CDDB414FFD32A00193D04 /* ReactionHide.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactionHide.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		034CDDB714FFD32A00193D04 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		034CDDBA14FFD32A00193D04 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		034CDDBB14FFD32A00193D04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		034CDDBC14FFD32A00193D04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		034CDDBF14FFD32A00193D04 /* ReactionHide-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReactionHide-Info.plist"; sourceTree = "<group>"; };
+		034CDDC114FFD32A00193D04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034CDDC314FFD32A00193D04 /* ReactionHide-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactionHide-Prefix.pch"; sourceTree = "<group>"; };
+		03644399150AD566003623AA /* ReactionHide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionHide.h; sourceTree = "<group>"; };
+		0364439A150AD566003623AA /* ReactionHide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactionHide.m; sourceTree = "<group>"; };
+		0364439B150AD566003623AA /* ReactionHide.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactionHide.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034CDDB114FFD32A00193D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D498B15045E09005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				034CDDB814FFD32A00193D04 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034CDDA914FFD32A00193D04 = {
+			isa = PBXGroup;
+			children = (
+				034CDDBD14FFD32A00193D04 /* ReactionHide */,
+				034CDDB614FFD32A00193D04 /* Frameworks */,
+				034CDDB514FFD32A00193D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034CDDB514FFD32A00193D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034CDDB414FFD32A00193D04 /* ReactionHide.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034CDDB614FFD32A00193D04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030D498A15045E09005C2891 /* RSTrixiePlugin.framework */,
+				034CDDB714FFD32A00193D04 /* Cocoa.framework */,
+				034CDDB914FFD32A00193D04 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034CDDB914FFD32A00193D04 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034CDDBA14FFD32A00193D04 /* AppKit.framework */,
+				034CDDBB14FFD32A00193D04 /* CoreData.framework */,
+				034CDDBC14FFD32A00193D04 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		034CDDBD14FFD32A00193D04 /* ReactionHide */ = {
+			isa = PBXGroup;
+			children = (
+				034CDDBE14FFD32A00193D04 /* Supporting Files */,
+				03644399150AD566003623AA /* ReactionHide.h */,
+				0364439A150AD566003623AA /* ReactionHide.m */,
+				0364439B150AD566003623AA /* ReactionHide.xib */,
+			);
+			path = ReactionHide;
+			sourceTree = "<group>";
+		};
+		034CDDBE14FFD32A00193D04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034CDDBF14FFD32A00193D04 /* ReactionHide-Info.plist */,
+				034CDDC014FFD32A00193D04 /* InfoPlist.strings */,
+				034CDDC314FFD32A00193D04 /* ReactionHide-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034CDDB314FFD32A00193D04 /* ReactionHide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034CDDC614FFD32A00193D04 /* Build configuration list for PBXNativeTarget "ReactionHide" */;
+			buildPhases = (
+				034CDDB014FFD32A00193D04 /* Sources */,
+				034CDDB114FFD32A00193D04 /* Frameworks */,
+				034CDDB214FFD32A00193D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactionHide;
+			productName = ReactionHide;
+			productReference = 034CDDB414FFD32A00193D04 /* ReactionHide.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034CDDAB14FFD32A00193D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 034CDDAE14FFD32A00193D04 /* Build configuration list for PBXProject "ReactionHide" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 034CDDA914FFD32A00193D04;
+			productRefGroup = 034CDDB514FFD32A00193D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034CDDB314FFD32A00193D04 /* ReactionHide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034CDDB214FFD32A00193D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034CDDC214FFD32A00193D04 /* InfoPlist.strings in Resources */,
+				0364439D150AD566003623AA /* ReactionHide.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034CDDB014FFD32A00193D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0364439C150AD566003623AA /* ReactionHide.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		034CDDC014FFD32A00193D04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034CDDC114FFD32A00193D04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034CDDC414FFD32A00193D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		034CDDC514FFD32A00193D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		034CDDC714FFD32A00193D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionHide/ReactionHide-Prefix.pch";
+				INFOPLIST_FILE = "ReactionHide/ReactionHide-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		034CDDC814FFD32A00193D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionHide/ReactionHide-Prefix.pch";
+				INFOPLIST_FILE = "ReactionHide/ReactionHide-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034CDDAE14FFD32A00193D04 /* Build configuration list for PBXProject "ReactionHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034CDDC414FFD32A00193D04 /* Debug */,
+				034CDDC514FFD32A00193D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034CDDC614FFD32A00193D04 /* Build configuration list for PBXNativeTarget "ReactionHide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034CDDC714FFD32A00193D04 /* Debug */,
+				034CDDC814FFD32A00193D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034CDDAB14FFD32A00193D04 /* Project object */;
+}

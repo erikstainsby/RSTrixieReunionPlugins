@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D497C15045DAF005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D497B15045DAF005C2891 /* RSTrixiePlugin.framework */; };
+		030D4C9B150856DF005C2891 /* ReactionAnimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D4C99150856DF005C2891 /* ReactionAnimate.m */; };
+		030D4C9C150856DF005C2891 /* ReactionAnimate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030D4C9A150856DF005C2891 /* ReactionAnimate.xib */; };
+		034CDEF914FFE44200193D04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034CDEF814FFE44200193D04 /* Cocoa.framework */; };
+		034CDF0314FFE44300193D04 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034CDF0114FFE44300193D04 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D497B15045DAF005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+		030D4C98150856DF005C2891 /* ReactionAnimate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactionAnimate.h; sourceTree = "<group>"; };
+		030D4C99150856DF005C2891 /* ReactionAnimate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactionAnimate.m; sourceTree = "<group>"; };
+		030D4C9A150856DF005C2891 /* ReactionAnimate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReactionAnimate.xib; sourceTree = "<group>"; };
+		034CDEF514FFE44200193D04 /* ReactionAnimate.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactionAnimate.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		034CDEF814FFE44200193D04 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		034CDEFB14FFE44200193D04 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		034CDEFC14FFE44200193D04 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		034CDEFD14FFE44200193D04 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		034CDF0014FFE44300193D04 /* ReactionAnimate-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ReactionAnimate-Info.plist"; sourceTree = "<group>"; };
+		034CDF0214FFE44300193D04 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		034CDF0414FFE44300193D04 /* ReactionAnimate-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactionAnimate-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		034CDEF214FFE44200193D04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D497C15045DAF005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				034CDEF914FFE44200193D04 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034CDEEA14FFE44200193D04 = {
+			isa = PBXGroup;
+			children = (
+				034CDEFE14FFE44200193D04 /* ReactionAnimate */,
+				034CDEF714FFE44200193D04 /* Frameworks */,
+				034CDEF614FFE44200193D04 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		034CDEF614FFE44200193D04 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				034CDEF514FFE44200193D04 /* ReactionAnimate.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		034CDEF714FFE44200193D04 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030D497B15045DAF005C2891 /* RSTrixiePlugin.framework */,
+				034CDEF814FFE44200193D04 /* Cocoa.framework */,
+				034CDEFA14FFE44200193D04 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		034CDEFA14FFE44200193D04 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				034CDEFB14FFE44200193D04 /* AppKit.framework */,
+				034CDEFC14FFE44200193D04 /* CoreData.framework */,
+				034CDEFD14FFE44200193D04 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		034CDEFE14FFE44200193D04 /* ReactionAnimate */ = {
+			isa = PBXGroup;
+			children = (
+				034CDEFF14FFE44300193D04 /* Supporting Files */,
+				030D4C98150856DF005C2891 /* ReactionAnimate.h */,
+				030D4C99150856DF005C2891 /* ReactionAnimate.m */,
+				030D4C9A150856DF005C2891 /* ReactionAnimate.xib */,
+			);
+			path = ReactionAnimate;
+			sourceTree = "<group>";
+		};
+		034CDEFF14FFE44300193D04 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034CDF0014FFE44300193D04 /* ReactionAnimate-Info.plist */,
+				034CDF0114FFE44300193D04 /* InfoPlist.strings */,
+				034CDF0414FFE44300193D04 /* ReactionAnimate-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		034CDEF414FFE44200193D04 /* ReactionAnimate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 034CDF0714FFE44300193D04 /* Build configuration list for PBXNativeTarget "ReactionAnimate" */;
+			buildPhases = (
+				034CDEF114FFE44200193D04 /* Sources */,
+				034CDEF214FFE44200193D04 /* Frameworks */,
+				034CDEF314FFE44200193D04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactionAnimate;
+			productName = ReactionAnimate;
+			productReference = 034CDEF514FFE44200193D04 /* ReactionAnimate.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		034CDEEC14FFE44200193D04 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 034CDEEF14FFE44200193D04 /* Build configuration list for PBXProject "ReactionAnimate" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 034CDEEA14FFE44200193D04;
+			productRefGroup = 034CDEF614FFE44200193D04 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				034CDEF414FFE44200193D04 /* ReactionAnimate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		034CDEF314FFE44200193D04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034CDF0314FFE44300193D04 /* InfoPlist.strings in Resources */,
+				030D4C9C150856DF005C2891 /* ReactionAnimate.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		034CDEF114FFE44200193D04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D4C9B150856DF005C2891 /* ReactionAnimate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		034CDF0114FFE44300193D04 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034CDF0214FFE44300193D04 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		034CDF0514FFE44300193D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		034CDF0614FFE44300193D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		034CDF0814FFE44300193D04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionAnimate/ReactionAnimate-Prefix.pch";
+				INFOPLIST_FILE = "ReactionAnimate/ReactionAnimate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		034CDF0914FFE44300193D04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionAnimate/ReactionAnimate-Prefix.pch";
+				INFOPLIST_FILE = "ReactionAnimate/ReactionAnimate-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		034CDEEF14FFE44200193D04 /* Build configuration list for PBXProject "ReactionAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034CDF0514FFE44300193D04 /* Debug */,
+				034CDF0614FFE44300193D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		034CDF0714FFE44300193D04 /* Build configuration list for PBXNativeTarget "ReactionAnimate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				034CDF0814FFE44300193D04 /* Debug */,
+				034CDF0914FFE44300193D04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 034CDEEC14FFE44200193D04 /* Project object */;
+}
