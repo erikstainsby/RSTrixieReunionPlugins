@@ -15,7 +15,7 @@
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
 	
-    if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
+    if( nil != (self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil]))
     {
 		[self setPluginName: @"Status"];
     }
@@ -27,7 +27,7 @@
 }
 
 - (NSString *) expression {
-	return [NSString stringWithFormat:@".('%@').%@()", [self selectorField],[self predicate]];
+	return [NSString stringWithFormat:@".%@()",[self predicate]];
 }
 
 @end

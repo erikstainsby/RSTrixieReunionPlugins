@@ -29,7 +29,7 @@
 }
 
 - (NSString *) expression {
-	return [NSString stringWithFormat:@".('%@').%@('%@')", [self selectorField],[self predicate],[[self valueOfField]stringValue]];
+	return [NSString stringWithFormat:@".%@('%@')",[self predicate],[[self valueOfField]stringValue]];
 }
 
 @end

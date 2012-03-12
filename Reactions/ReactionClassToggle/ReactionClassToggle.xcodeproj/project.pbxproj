@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		030D499D15045E66005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D499C15045E66005C2891 /* RSTrixiePlugin.framework */; };
 		034CDF8114FFEE5B00193D04 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 034CDF8014FFEE5B00193D04 /* Cocoa.framework */; };
-		03644374150A9B56003623AA /* ReactionClassToggle-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03644373150A9B56003623AA /* ReactionClassToggle-Info.plist */; };
 		03644378150A9B91003623AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03644376150A9B91003623AA /* InfoPlist.strings */; };
 		0364437D150A9E75003623AA /* ReactionClassToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0364437B150A9E75003623AA /* ReactionClassToggle.m */; };
 		0364437E150A9E75003623AA /* ReactionClassToggle.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0364437C150A9E75003623AA /* ReactionClassToggle.xib */; };
@@ -153,7 +152,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03644374150A9B56003623AA /* ReactionClassToggle-Info.plist in Resources */,
 				03644378150A9B91003623AA /* InfoPlist.strings in Resources */,
 				0364437E150A9E75003623AA /* ReactionClassToggle.xib in Resources */,
 			);

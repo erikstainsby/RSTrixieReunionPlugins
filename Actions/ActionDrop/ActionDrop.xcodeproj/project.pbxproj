@@ -244,11 +244,7 @@
 		03530B9714F099C4002E9A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"~/Code/Workspaces/Trixie/RSTrixiePlugin/RSTrixiePlugin",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug\"",
-					"\"$(SRCROOT)/../../../../../../Library/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActionDrop/ActionDrop-Prefix.pch";
 				INFOPLIST_FILE = "ActionDrop/ActionDrop-Info.plist";
@@ -262,11 +258,7 @@
 		03530B9814F099C4002E9A5E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"~/Code/Workspaces/Trixie/RSTrixiePlugin/RSTrixiePlugin",
-					"\"$(SRCROOT)/../../../../Library/Developer/Xcode/DerivedData/Workspace_Trixie-axnfrbtrkoszpiehooyethumxqxg/Build/Products/Debug\"",
-					"\"$(SRCROOT)/../../../../../../Library/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ActionDrop/ActionDrop-Prefix.pch";
 				INFOPLIST_FILE = "ActionDrop/ActionDrop-Info.plist";

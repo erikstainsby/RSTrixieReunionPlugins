@@ -18,9 +18,9 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // Initialization code here.
+        [self setPluginName:@"Page Unload"];
+		[self setEvent:@"unload"];
     }
-    
     return self;
 }
 

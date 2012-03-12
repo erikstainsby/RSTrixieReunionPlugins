@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		030D47E61502F386005C2891 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D47E51502F386005C2891 /* Cocoa.framework */; };
 		030D47F01502F386005C2891 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 030D47EE1502F386005C2891 /* InfoPlist.strings */; };
-		030D47FF1502F3C5005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D47FE1502F3C5005C2891 /* RSTrixiePlugin.framework */; };
 		030D48031502F3F0005C2891 /* NotImplementedPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 030D48011502F3F0005C2891 /* NotImplementedPlugin.m */; };
 		030D48041502F3F0005C2891 /* NotImplementedPlugin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 030D48021502F3F0005C2891 /* NotImplementedPlugin.xib */; };
+		030D8E6B150D495600EFD7BC /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D8E6A150D495600EFD7BC /* RSTrixiePlugin.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,10 +23,10 @@
 		030D47ED1502F386005C2891 /* NotImplementedPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NotImplementedPlugin-Info.plist"; sourceTree = "<group>"; };
 		030D47EF1502F386005C2891 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		030D47F11502F386005C2891 /* NotImplementedPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotImplementedPlugin-Prefix.pch"; sourceTree = "<group>"; };
-		030D47FE1502F3C5005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/RSTrixiePluginFramework-fgyodceljrpqsdhgtpynkhkiulae/Build/Products/Release/RSTrixiePlugin.framework"; sourceTree = "<group>"; };
 		030D48001502F3F0005C2891 /* NotImplementedPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotImplementedPlugin.h; sourceTree = "<group>"; };
 		030D48011502F3F0005C2891 /* NotImplementedPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotImplementedPlugin.m; sourceTree = "<group>"; };
 		030D48021502F3F0005C2891 /* NotImplementedPlugin.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotImplementedPlugin.xib; sourceTree = "<group>"; };
+		030D8E6A150D495600EFD7BC /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = "../../../../../Library/Developer/Xcode/DerivedData/RSTrixiePluginFramework-fgyodceljrpqsdhgtpynkhkiulae/Build/Products/Debug/RSTrixiePlugin.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,7 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				030D47FF1502F3C5005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				030D8E6B150D495600EFD7BC /* RSTrixiePlugin.framework in Frameworks */,
 				030D47E61502F386005C2891 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -62,7 +62,7 @@
 		030D47E41502F386005C2891 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				030D47FE1502F3C5005C2891 /* RSTrixiePlugin.framework */,
+				030D8E6A150D495600EFD7BC /* RSTrixiePlugin.framework */,
 				030D47E51502F386005C2891 /* Cocoa.framework */,
 				030D47E71502F386005C2891 /* Other Frameworks */,
 			);
@@ -231,7 +231,10 @@
 		030D47F51502F386005C2891 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Library/Frameworks",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/RSTrixiePluginFramework-fgyodceljrpqsdhgtpynkhkiulae/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotImplementedPlugin/NotImplementedPlugin-Prefix.pch";
 				INFOPLIST_FILE = "NotImplementedPlugin/NotImplementedPlugin-Info.plist";
@@ -245,7 +248,10 @@
 		030D47F61502F386005C2891 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = (
+					"~/Library/Frameworks",
+					"\"$(SRCROOT)/../../../../../Library/Developer/Xcode/DerivedData/RSTrixiePluginFramework-fgyodceljrpqsdhgtpynkhkiulae/Build/Products/Debug\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NotImplementedPlugin/NotImplementedPlugin-Prefix.pch";
 				INFOPLIST_FILE = "NotImplementedPlugin/NotImplementedPlugin-Info.plist";
@@ -275,6 +281,7 @@
 				030D47F61502F386005C2891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

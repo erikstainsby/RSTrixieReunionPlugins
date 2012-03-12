@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		03A536AC150C68CB00D9928D /* ActionPageLoad-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03CBCE8B150C688F0069A22B /* ActionPageLoad-Info.plist */; };
 		03A536B0150C68E900D9928D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03A536AE150C68E900D9928D /* InfoPlist.strings */; };
 		03CBCE4B150C621E0069A22B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBCE4A150C621E0069A22B /* Cocoa.framework */; };
 		03CBCE61150C62D10069A22B /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03CBCE60150C62D10069A22B /* RSTrixiePlugin.framework */; };
-		03CBCE90150C688F0069A22B /* ActionPageLoad-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03CBCE8B150C688F0069A22B /* ActionPageLoad-Info.plist */; };
 		03CBCE91150C688F0069A22B /* ActionPageLoad-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 03CBCE8C150C688F0069A22B /* ActionPageLoad-Prefix.pch */; };
 		03CBCE92150C688F0069A22B /* ActionPageLoad.h in Headers */ = {isa = PBXBuildFile; fileRef = 03CBCE8D150C688F0069A22B /* ActionPageLoad.h */; };
 		03CBCE93150C688F0069A22B /* ActionPageLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 03CBCE8E150C688F0069A22B /* ActionPageLoad.m */; };
@@ -169,9 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03CBCE90150C688F0069A22B /* ActionPageLoad-Info.plist in Resources */,
 				03CBCE94150C688F0069A22B /* ActionPageLoad.xib in Resources */,
-				03A536AC150C68CB00D9928D /* ActionPageLoad-Info.plist in Resources */,
 				03A536B0150C68E900D9928D /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

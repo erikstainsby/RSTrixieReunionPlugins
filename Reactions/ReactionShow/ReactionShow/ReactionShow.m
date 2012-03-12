@@ -24,5 +24,26 @@
     return self;
 }
 
+- (BOOL) hasTargetField {
+	return NO;
+}
+- (BOOL) hasDeltaField {
+	return NO;
+}
+- (BOOL) hasDelayField {
+	return YES;
+}
+- (BOOL) hasPeriodField {
+	return NO;
+}
+- (BOOL) hasOpacityField {
+	return NO;
+}
+- (BOOL) hasEasingField {
+	return YES;
+}
+- (BOOL) hasCallbackField {
+	return YES;
+}
 
 @end

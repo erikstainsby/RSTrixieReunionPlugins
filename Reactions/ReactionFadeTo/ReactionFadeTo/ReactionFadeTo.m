@@ -21,8 +21,29 @@
         [self setPluginName:@"Fade To"];
 		[self setAction:@"fadeTo"];
     }
-    
     return self;
+}
+
+- (BOOL) hasTargetField {
+	return NO;
+}
+- (BOOL) hasDeltaField {
+	return NO;
+}
+- (BOOL) hasDelayField {
+	return YES;
+}
+- (BOOL) hasPeriodField {
+	return YES;
+}
+- (BOOL) hasOpacityField {
+	return YES;
+}
+- (BOOL) hasEasingField {
+	return YES;
+}
+- (BOOL) hasCallbackField {
+	return YES;
 }
 
 @end

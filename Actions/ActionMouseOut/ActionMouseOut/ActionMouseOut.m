@@ -14,7 +14,8 @@
 	
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
     {
-		[self setPluginName: @"MouseOut"];
+		[self setPluginName: @"Mouse Out"];
+		[self setEvent:@"mouseout"];
     }
     return self;
 }

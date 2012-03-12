@@ -14,7 +14,8 @@
 	
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
     {
-		[self setPluginName: @"MouseDown"];
+		[self setPluginName: @"Mouse Down"];
+		[self setEvent:@"mousedown"];
     }
     return self;
 }

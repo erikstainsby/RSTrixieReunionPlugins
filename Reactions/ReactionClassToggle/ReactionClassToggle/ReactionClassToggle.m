@@ -18,11 +18,33 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        [self setPluginName:@"Toggle Classes"];
+        [self setPluginName:@"Toggle Class"];
 		[self setAction:@"toggle"];
     }
     
     return self;
+}
+
+- (BOOL) hasTargetField {
+	return NO;
+}
+- (BOOL) hasDeltaField {
+	return YES;
+}
+- (BOOL) hasDelayField {
+	return YES;
+}
+- (BOOL) hasPeriodField {
+	return NO;
+}
+- (BOOL) hasOpacityField {
+	return NO;
+}
+- (BOOL) hasEasingField {
+	return NO;
+}
+- (BOOL) hasCallbackField {
+	return NO;
 }
 
 @end

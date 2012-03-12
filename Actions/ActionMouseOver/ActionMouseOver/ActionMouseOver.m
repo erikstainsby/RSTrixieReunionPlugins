@@ -14,7 +14,8 @@
 	
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
     {
-		[self setPluginName: @"MouseOver"];
+		[self setPluginName: @"Mouse Over"];
+		[self setEvent:@"mouseover"];
     }
     return self;
 }

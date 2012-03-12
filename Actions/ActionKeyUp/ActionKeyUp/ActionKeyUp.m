@@ -15,6 +15,7 @@
     if( nil != (self = [super initWithNibName:nibNameOrNil	bundle:nibBundleOrNil]))
     {
 		[self setPluginName: @"KeyUp"];
+		[self setEvent:@"keyup"];
     }
     return self;
 }
