@@ -288,6 +288,7 @@
 				03CBCE3B150C615D0069A22B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

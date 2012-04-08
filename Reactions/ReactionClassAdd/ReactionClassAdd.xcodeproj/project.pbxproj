@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030D497A15045DA5005C2891 /* RSTrixiePlugin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 030D497915045DA5005C2891 /* RSTrixiePlugin.framework */; };
+		034304DA150C6F72007DC04A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 034304D3150C6F72007DC04A /* InfoPlist.strings */; };
+		034304DC150C6F72007DC04A /* ReactionClassAdd-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 034304D6150C6F72007DC04A /* ReactionClassAdd-Prefix.pch */; };
+		034304DD150C6F72007DC04A /* ReactionClassAdd.h in Headers */ = {isa = PBXBuildFile; fileRef = 034304D7150C6F72007DC04A /* ReactionClassAdd.h */; };
+		034304DE150C6F72007DC04A /* ReactionClassAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 034304D8150C6F72007DC04A /* ReactionClassAdd.m */; };
+		034304DF150C6F72007DC04A /* ReactionClassAdd.xib in Resources */ = {isa = PBXBuildFile; fileRef = 034304D9150C6F72007DC04A /* ReactionClassAdd.xib */; };
+		03530C4C14F0A86C002E9A5E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03530C4B14F0A86C002E9A5E /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030D497915045DA5005C2891 /* RSTrixiePlugin.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RSTrixiePlugin.framework; path = ../../../../../../Library/Frameworks/RSTrixiePlugin.framework; sourceTree = "<group>"; };
+		034304D4150C6F72007DC04A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = ReactionClassAdd/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		034304D5150C6F72007DC04A /* ReactionClassAdd-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ReactionClassAdd-Info.plist"; path = "ReactionClassAdd/ReactionClassAdd-Info.plist"; sourceTree = SOURCE_ROOT; };
+		034304D6150C6F72007DC04A /* ReactionClassAdd-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ReactionClassAdd-Prefix.pch"; path = "ReactionClassAdd/ReactionClassAdd-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		034304D7150C6F72007DC04A /* ReactionClassAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReactionClassAdd.h; path = ReactionClassAdd/ReactionClassAdd.h; sourceTree = SOURCE_ROOT; };
+		034304D8150C6F72007DC04A /* ReactionClassAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReactionClassAdd.m; path = ReactionClassAdd/ReactionClassAdd.m; sourceTree = SOURCE_ROOT; };
+		034304D9150C6F72007DC04A /* ReactionClassAdd.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ReactionClassAdd.xib; path = ReactionClassAdd/ReactionClassAdd.xib; sourceTree = SOURCE_ROOT; };
+		03530C4814F0A86C002E9A5E /* ReactionClassAdd.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactionClassAdd.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		03530C4B14F0A86C002E9A5E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		03530C4E14F0A86C002E9A5E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		03530C4F14F0A86C002E9A5E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		03530C5014F0A86C002E9A5E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03530C4514F0A86C002E9A5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030D497A15045DA5005C2891 /* RSTrixiePlugin.framework in Frameworks */,
+				03530C4C14F0A86C002E9A5E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03530C3D14F0A86C002E9A5E = {
+			isa = PBXGroup;
+			children = (
+				03530C5114F0A86C002E9A5E /* ReactionClassAdd */,
+				03530C4A14F0A86C002E9A5E /* Frameworks */,
+				03530C4914F0A86C002E9A5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03530C4914F0A86C002E9A5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03530C4814F0A86C002E9A5E /* ReactionClassAdd.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03530C4A14F0A86C002E9A5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				030D497915045DA5005C2891 /* RSTrixiePlugin.framework */,
+				03530C4B14F0A86C002E9A5E /* Cocoa.framework */,
+				03530C4D14F0A86C002E9A5E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		03530C4D14F0A86C002E9A5E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03530C4E14F0A86C002E9A5E /* AppKit.framework */,
+				03530C4F14F0A86C002E9A5E /* CoreData.framework */,
+				03530C5014F0A86C002E9A5E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		03530C5114F0A86C002E9A5E /* ReactionClassAdd */ = {
+			isa = PBXGroup;
+			children = (
+				034304D7150C6F72007DC04A /* ReactionClassAdd.h */,
+				034304D8150C6F72007DC04A /* ReactionClassAdd.m */,
+				034304D9150C6F72007DC04A /* ReactionClassAdd.xib */,
+				03530C5214F0A86C002E9A5E /* Supporting Files */,
+			);
+			name = ReactionClassAdd;
+			path = ReactionAddClass;
+			sourceTree = "<group>";
+		};
+		03530C5214F0A86C002E9A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				034304D3150C6F72007DC04A /* InfoPlist.strings */,
+				034304D5150C6F72007DC04A /* ReactionClassAdd-Info.plist */,
+				034304D6150C6F72007DC04A /* ReactionClassAdd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03530C6414F0A8F0002E9A5E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034304DC150C6F72007DC04A /* ReactionClassAdd-Prefix.pch in Headers */,
+				034304DD150C6F72007DC04A /* ReactionClassAdd.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		03530C4714F0A86C002E9A5E /* ReactionClassAdd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03530C5A14F0A86C002E9A5E /* Build configuration list for PBXNativeTarget "ReactionClassAdd" */;
+			buildPhases = (
+				03530C4414F0A86C002E9A5E /* Sources */,
+				03530C4514F0A86C002E9A5E /* Frameworks */,
+				03530C4614F0A86C002E9A5E /* Resources */,
+				03530C6414F0A8F0002E9A5E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactionClassAdd;
+			productName = ReactionAddClass;
+			productReference = 03530C4814F0A86C002E9A5E /* ReactionClassAdd.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03530C3F14F0A86C002E9A5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Roaring Sky";
+			};
+			buildConfigurationList = 03530C4214F0A86C002E9A5E /* Build configuration list for PBXProject "ReactionClassAdd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 03530C3D14F0A86C002E9A5E;
+			productRefGroup = 03530C4914F0A86C002E9A5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03530C4714F0A86C002E9A5E /* ReactionClassAdd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03530C4614F0A86C002E9A5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034304DA150C6F72007DC04A /* InfoPlist.strings in Resources */,
+				034304DF150C6F72007DC04A /* ReactionClassAdd.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03530C4414F0A86C002E9A5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				034304DE150C6F72007DC04A /* ReactionClassAdd.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		034304D3150C6F72007DC04A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				034304D4150C6F72007DC04A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03530C5814F0A86C002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		03530C5914F0A86C002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		03530C5B14F0A86C002E9A5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionClassAdd/ReactionClassAdd-Prefix.pch";
+				INFOPLIST_FILE = "ReactionClassAdd/ReactionClassAdd-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = ReactionClassAdd;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		03530C5C14F0A86C002E9A5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "~/Library/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReactionClassAdd/ReactionClassAdd-Prefix.pch";
+				INFOPLIST_FILE = "ReactionClassAdd/ReactionClassAdd-Info.plist";
+				INSTALL_PATH = "@executable_path/../Plugins";
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/../Frameworks";
+				PRODUCT_NAME = ReactionClassAdd;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03530C4214F0A86C002E9A5E /* Build configuration list for PBXProject "ReactionClassAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03530C5814F0A86C002E9A5E /* Debug */,
+				03530C5914F0A86C002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03530C5A14F0A86C002E9A5E /* Build configuration list for PBXNativeTarget "ReactionClassAdd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03530C5B14F0A86C002E9A5E /* Debug */,
+				03530C5C14F0A86C002E9A5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03530C3F14F0A86C002E9A5E /* Project object */;
+}
